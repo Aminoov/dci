@@ -1,0 +1,80 @@
+html {
+    scroll-behavior: smooth;
+    
+}
+
+title {
+    color: red;font-size: 500px;
+    
+
+}
+
+body {
+    background-image: url(http://www.randwickbloodstock.com.au/wp-content/uploads/2014/01/texture-pattern-light-background-gradient-light-texture_1920x1200_sc.jpg);
+
+    margin: 0;
+    font-family: 'Vollkorn SC', serif;
+
+}
+
+main {
+    margin: 50px 10px;
+
+}
+
+div {
+    height: 300px;
+    overflow: hidden;
+}
+
+h1,
+h2 {
+    padding-top: 60px;
+}
+
+nav {
+    text-align: center;
+    background: darkblue;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px;
+    background-color: darkblue;
+
+
+}
+
+a:hover {
+    background-color: darkblue;
+    color: salmon;
+}
+
+img {
+    width: 100%
+}
+
+img.cow {
+    width: 50%;
+    filter: grayscale(100%);
+    transition: all 1s;
+
+}
+
+img.cow:hover {
+    filter: none;
+    transform: scale(0.4) rotate(30deg);
+
+
+}
+
+filter: grayscale (100%)

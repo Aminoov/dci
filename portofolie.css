@@ -1,0 +1,209 @@
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    background-color: white;
+    margin: 0;
+
+    background-image: url(camera6.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Big Shoulders Display', cursive;
+
+
+
+}
+
+
+nav {
+    opacity: 0, 3;
+    font-family: 'Big Shoulders Display', cursive;
+    padding: 7px;
+    font-size: 22px;
+    color: darkgreen;
+    text-align: center;
+
+}
+
+nav:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: 10px 15px 7px #C7C7C7;
+}
+
+main img.bild1 {
+
+    /*    width: 360px;
+    height: 240px;
+    border: 1px;*/
+    transition: all 0.5s;
+
+
+}
+
+main img.bild1:hover {
+
+
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #333;
+
+}
+
+nav a {
+    color: darkgreen;
+    padding-left: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+
+
+
+    text-align: center;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+
+
+}
+
+nav a:hover {
+    background-color: #8F8784;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: 10px 15px 7px #C7C7C7;
+
+}
+
+main {
+    margin: 0px 20px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+h3,
+h4,
+h5 {
+    font-size: 42px;
+
+}
+
+p {
+    text-align: left;
+    font-size: 30px;
+
+
+}
+
+div.portrait {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+div.portrait img {
+    width: 100%;
+}
+
+div.grow-shadow {
+    display: flex;
+    justify-content: center;
+}
+
+div.grow-shadow img {
+    width: 50px;
+    margin: 0 30px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.grow-shadow img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: 5px 5px 5px #333;
+}
+.grow-shadow div:nth-child(even); {
+    background-color: red;
+}
+.grow-shadow div:nth-child(odd); {
+    background-color: green;
+}
+i {
+    font-size: 50px;
+    color: dodgerblue;
+}
+
+div.flex {
+    display: flex;
+/*    background-color: black;*/
+    background-position: center;
+    justify-content: space-around;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+
+
+}
+.bild1 {
+    
+}
+figure {
+    width: 240px;
+/*    height: 700px;*/
+    opacity: 1.3;
+
+
+}
+
+figure img {
+    width: 100%;
+
+
+}
+
+figcaption {
+    display: grid block;
+    grid: 
+}
+
+section {
+    margin: 2px;
+}
+
+section footer   {
+    display: table-footer-group;
+    justify-content: space-between;
+    width: 100%;
+   
+    
+    
+    
+    height: 400px;
+color: black;
+    background-color: 'dimgrey';
+    background-size: cover;
+    background-position: center;
+    
+    
+
+}
+section footer p.foo{
+    text-align: center bottom;
+    font-size: 12px;
+}

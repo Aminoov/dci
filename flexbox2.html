@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title> Spalten Layout mit Flex</title>
+    <style>
+        body {
+            margin: 0;
+
+        }
+
+        section,
+        article {
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        main {
+            display: flex
+        }
+
+        section.links {
+            width: 300px;
+
+
+        }
+
+        section.rechts {
+            width: calc(100% - 300px);
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="links">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque consectetur neque similique et labore maxime. Ut modi iusto ipsa hic explicabo veritatis blanditiis maiores, minus enim velit nisi dolorum voluptatem inventore quis repudiandae soluta voluptatum commodi animi aperiam esse maxime repellat, tempore consectetur. Sit a laboriosam, reiciendis mollitia neque harum.
+          
+        </section>
+        <section class="rechts">
+            <article>Lorem ipsum dolor sit amet.</article>
+            <article>Lorem ipsum dolor sit.</article>
+            <article>Lorem ipsum.</article>
+        </section>
+    </main>
+</body></html>

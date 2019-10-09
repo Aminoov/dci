@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Javascript Beispiel</title>
+    <img src="Fuckoff.jpg">
+</head>
+
+<body>
+    <h1></h1>
+        <button>DOM Mainpulation</button>
+    <script>
+        var bild = document.querySelector("img");
+        bild.addEventListener("click", changeImage);
+
+        function changeImage() {
+            if (bild.getAttribute("src") == "Fuckoff.jpg") {
+                bild.src = "3bajl5.jpg";
+
+
+
+            } else {
+                bild.src = "Fuckoff.jpg";
+
+
+
+            }
+        }
+
+
+
+
+
+
+
+
+        /*    
+        
+ var name = prompt ("Bitte gib deinen Namen ein");
+       var heading = document.querySelector("h1");
+          var button = document.querySelector("button");
+        heading.textContent = "Hallo " + name;
+      button.addEventListener("click", changeCSS);
+        function changeCSS () {
+            heading.style.color = "red";
+            heading.style.fontSize= "80px";
+            
+        }
+        */
+        
+        
+    </script>
+</body></html>
